@@ -1,0 +1,9 @@
+# wrangler.toml
+# Configuration to serve static files using Cloudflare Workers
+
+name = "calciom-site"
+compatibility_date = "2026-09-20"
+
+# Tell the Worker to serve everything inside the public folder
+[site]
+bucket = "./public"
