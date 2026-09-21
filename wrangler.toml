@@ -1,9 +1,9 @@
 # wrangler.toml
-# Configuration to serve static files using Cloudflare Workers
+# Native static asset configuration for Calciom Website
 
 name = "calciom-site"
 compatibility_date = "2026-09-20"
 
-# Tell the Worker to serve everything inside the public folder
-[site]
-bucket = "./public"
+# Direct Cloudflare to natively map and upload the public folder assets
+[assets]
+directory = "./public"
