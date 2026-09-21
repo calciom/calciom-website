@@ -1,0 +1,9 @@
+{
+  "name": "calciom-site",
+  "version": "1.0.0",
+  "description": "Static architecture presentation for Calciom Framework",
+  "main": "index.js",
+  "dependencies": {
+    "@cloudflare/kv-asset-handler": "^0.3.4"
+  }
+}
