@@ -1,9 +1,9 @@
 # wrangler.toml
-# Native static asset configuration for Calciom Website
+# Native static site deployment configuration for Calciom
 
 name = "calciom-site"
-compatibility_date = "2026-09-20"
+compatibility_date = "2026-09-22"
 
-# Direct Cloudflare to natively map and upload the public folder assets
-[assets]
-directory = "./public"
+# Inline configuration directing Cloudflare to serve the public folder
+assets = { directory = "./public" }
+
